@@ -90,7 +90,7 @@ a {
 }
 
 .menu__link:hover {
-  color: #FF9B3D;
+  color: #FFDB5B;
 }
 
 .menu__item {
@@ -113,7 +113,7 @@ a {
 }
 
 .search__link:hover {
-  color: #FF9B3D;
+  color: #FFDB5B;
 }
 
 .basket-img {}
@@ -814,6 +814,11 @@ a {
 
 .footer__link-one {
   text-transform: uppercase;
+  transition: all .3s linear;
+}
+
+.footer__link-one:hover {
+  color: #FFDB5B;
 }
 
 .footer__box-three {}
