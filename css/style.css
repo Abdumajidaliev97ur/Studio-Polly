@@ -1216,7 +1216,13 @@ a {
   }
 
   .ourbestsellers__box-text {
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .ourbestsellers__text {
+    max-width: 100%;
   }
 
   .ourbestsellers__link {
@@ -1378,6 +1384,13 @@ a {
     margin-bottom: 100px;
     padding: 60px 0;
   }
+
+  .info__title {
+    font-size: 40px;
+    line-height: 47px;
+  }
+
+
 }
 
 @media only screen and (max-width: 690px) {
@@ -1717,6 +1730,23 @@ a {
     margin-bottom: 50px;
     padding: 35px 0;
   }
+
+  .header {
+    margin-bottom: 60px;
+  }
+
+  .info__title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .info {
+    margin-bottom: 40px;
+  }
+
+  .ourbestsellers__box-link {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 380px) {
@@ -1726,5 +1756,10 @@ a {
 
   .articles-text {
     padding: 10px 100px;
+  }
+
+  .info__title {
+    font-size: 26px;
+    line-height: 30px;
   }
 }
